@@ -1,0 +1,296 @@
+@media screen and (min-width:0px)and (max-width:599px) {
+    .navbar ul {
+        width: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    .layer h1 {
+        font-size: 40px;
+    }
+    #about {
+        padding: 10px;
+    }
+    .about-background,
+    .services-background,
+    .resume-background,
+    .portfolio-background,
+    .test-background,
+    .contact-background {
+        font-size: 80px;
+        width: 90%
+    }
+    .about-information {
+        flex-direction: column;
+        padding: 0;
+    }
+    .left,
+    .right {
+        width: 100%;
+        padding: 0 40px;
+    }
+    #about h2 {
+        text-align: center;
+    }
+    .about-footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .about-footer div {
+        width: 50%;
+        padding: 0;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+    }
+    .gallery .gal-column {
+        width: 100%;
+        padding: 0;
+    }
+    .services-container {
+        width: 100%;
+    }
+    .services-child .margin-bottom {
+        padding: 0;
+    }
+    .services-child {
+        width: 100%;
+        padding: 0;
+    }
+    .resume-container,
+    .skill-flex,
+    .address-container {
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+    .left-resume,
+    .right-resume {
+        width: 100%;
+    }
+    #skills h2 {
+        padding-left: 0;
+    }
+    .right-skills,
+    .left-skills {
+        width: 100%;
+        padding: 0;
+    }
+    .portfolio-links {
+        width: 100%;
+    }
+    #portfolio .gallery div {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .review-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .reviews {
+        flex-wrap: wrap;
+    }
+    .right-add,
+    .left-add {
+        width: 100%;
+        padding: 0;
+    }
+    #footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* medium screens */
+
+@media screen and (min-width:599px)and (max-width:767px) {
+    .navbar ul {
+        display: none;
+    }
+    .about-information {
+        flex-direction: column;
+        padding: 0;
+    }
+    .about-footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .about-footer div {
+        width: 50%;
+    }
+    .left,
+    .right {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .about-background,
+    .services-background,
+    .resume-background,
+    .portfolio-background,
+    .test-background,
+    .contact-background {
+        font-size: 90px;
+    }
+    .services-container {
+        width: 100%;
+    }
+    .services-child .margin-bottom {
+        padding: 0;
+    }
+    .services-child {
+        width: 100%;
+        padding: 0;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0;
+    }
+    .gallery .gal-column {
+        width: 50%;
+        padding: 10px;
+    }
+    .resume-container,
+    .skill-flex,
+    .address-container {
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+    .left-resume,
+    .right-resume {
+        width: 100%;
+    }
+    #skills h2 {
+        padding-left: 0;
+    }
+    .right-skills,
+    .left-skills {
+        width: 100%;
+        padding: 0;
+    }
+    .portfolio-links {
+        width: 100%;
+    }
+    #portfolio .gallery div {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .review-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .reviews {
+        flex-wrap: wrap;
+    }
+    .right-add,
+    .left-add {
+        width: 100%;
+        padding: 0;
+    }
+    #footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* large screens */
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .navbar ul {
+        width: 90%;
+    }
+    #about {
+        padding: 10px;
+    }
+    .about-background,
+    .services-background,
+    .resume-background,
+    .portfolio-background,
+    .test-background,
+    .contact-background {
+        font-size: 80px;
+        width: 90%
+    }
+    .about-information {
+        flex-direction: column;
+        padding: 0;
+    }
+    .left,
+    .right {
+        width: 100%;
+        padding: 0 40px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .about-footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .about-footer div {
+        width: 50%;
+    }
+    .services-container {
+        width: 100%;
+    }
+    .services-child .margin-bottom {
+        padding: 10px;
+    }
+    .services-child {
+        width: 50%;
+        padding: 10px;
+    }
+    .resume-container,
+    .skill-flex,
+    .address-container {
+        flex-wrap: wrap;
+        justify-content: flex-start
+    }
+    .left-resume,
+    .right-resume {
+        width: 50%;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0;
+    }
+    .gallery .gal-column {
+        width: 33.33%;
+        padding: 10px;
+    }
+    .img-container .layer {
+        margin: 0;
+    }
+    #skills h2 {
+        padding-left: 0;
+    }
+    .right-skills,
+    .left-skills {
+        width: 50%;
+        padding: 10px;
+    }
+    .gallery div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .review-container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .reviews {
+        flex-wrap: nowrap
+    }
+    .right-add,
+    .left-add {
+        width: 50%;
+        padding: 0;
+    }
+    #footer {
+        flex-wrap: wrap;
+    }
+}
